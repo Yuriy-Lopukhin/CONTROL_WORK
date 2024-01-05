@@ -1,10 +1,10 @@
 class Hamster extends Pet {
-    public Hamster(String name, int age) {
-        super(name, age);
+    public Hamster(String name) {
+        super(name);
     }
 
     @Override
-    public void performCommand(String command) {
-        System.out.println("Хомяк} " + name + " знает команду: " + command);
+    public void makeSound() {
+        System.out.println("Хомяк пищит");
     }
 }
