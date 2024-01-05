@@ -1,13 +1,11 @@
 class Animal {
     String name;
-    int age;
 
-    public Animal(String name, int age) {
+    public Animal(String name) {
         this.name = name;
-        this.age = age;
     }
 
-    public void performCommand(String command) {
-        System.out.println(name + " знает команду: " + command);
+    public void makeSound() {
+        System.out.println("Животное издает звук");
     }
 }

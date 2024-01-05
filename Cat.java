@@ -1,10 +1,10 @@
 class Cat extends Pet {
-    public Cat(String name, int age) {
-        super(name, age);
+    public Cat(String name) {
+        super(name);
     }
 
     @Override
-    public void performCommand(String command) {
-        System.out.println("Кошка " + name + " знает команду: " + command);
+    public void makeSound() {
+        System.out.println("Кошка мяукает");
     }
 }

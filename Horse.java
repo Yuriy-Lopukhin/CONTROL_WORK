@@ -1,10 +1,10 @@
-class Horse extends WorkingAnimal {
-    public Horse(String name, int age) {
-        super(name, age);
+class Horse extends PackAnimal {
+    public Horse(String name) {
+        super(name);
     }
 
     @Override
-    public void performCommand(String command) {
-        System.out.println("Лошадь " + name + " знает команду: " + command);
+    public void makeSound() {
+        System.out.println("Лошадь ржёт");
     }
 }

@@ -1,10 +1,10 @@
 class Dog extends Pet {
-    public Dog(String name, int age) {
-        super(name, age);
+    public Dog(String name) {
+        super(name);
     }
 
     @Override
-    public void performCommand(String command) {
-        System.out.println("Собака " + name + " знает команду: " + command);
+    public void makeSound() {
+        System.out.println("Собака лает");
     }
 }
